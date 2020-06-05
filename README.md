@@ -36,7 +36,7 @@ crawler.py，爬虫本体。
 首先，爬取城市页面，比如武汉市的url为：https://m.weibo.cn/p/1001018008642010000000000，  获取城市下的所有POI，写入<cityName>.csv文件。   
 
 然后，读取生成的csv文件读出POI的name和id，再构造url爬取POI下的微博信息，url示例： https://m.weibo.cn/p/index?containerid=100101B2094655D464A3FF439C
-![SinaWeibo Mobile 武汉市](http://qab3yd0rl.bkt.clouddn.com/%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6.png)
+![SinaWeibo Mobile 武汉市](http://qab3yd0rl.bkt.clouddn.com/%E6%AD%A6%E6%B1%89%E5%B8%82.png)
 ![SinaWeibo Mobile 黄鹤楼](http://qab3yd0rl.bkt.clouddn.com/%E9%BB%84%E9%B9%A4%E6%A5%BC.png)
 
 ## 4.使用方法
