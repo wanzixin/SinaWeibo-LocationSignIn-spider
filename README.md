@@ -33,7 +33,7 @@ crawler.py，爬虫本体。
 ## 3.程序思路
 爬取网站为 [新浪微博移动端](https://m.weibo.cn) ，相对于PC端而言网页结构简单而且限制较少，而且签到页不需要模拟登录。
 
-首先，爬取城市页面，比如武汉市的url为：https://m.weibo.cn/p/1001018008642010000000000，  获取城市下的所有POI，写入<cityName>.csv文件。   
+首先，爬取城市页面，比如武汉市的url为： https://m.weibo.cn/p/1001018008642010000000000  ，获取城市下的所有POI，写入<cityName>.csv文件。   
 
 然后，读取生成的csv文件读出POI的name和id，再构造url爬取POI下的微博信息，url示例： https://m.weibo.cn/p/index?containerid=100101B2094655D464A3FF439C
 ![SinaWeibo Mobile 武汉市](http://qab3yd0rl.bkt.clouddn.com/%E6%AD%A6%E6%B1%89%E5%B8%82.png)
